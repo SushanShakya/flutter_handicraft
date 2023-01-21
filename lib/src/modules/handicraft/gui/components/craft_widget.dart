@@ -105,6 +105,13 @@ class Body extends StatelessWidget {
                               fontSize: 26,
                               fontWeight: FontWeight.w500,
                               color: Colors.white,
+                              shadows: [
+                                Shadow(
+                                  offset: Offset(1.0, 1.0),
+                                  blurRadius: 15.0,
+                                  color: Color.fromARGB(255, 0, 0, 0),
+                                ),
+                              ],
                             ),
                           ),
                         ),
@@ -115,6 +122,13 @@ class Body extends StatelessWidget {
                           fontSize: 18,
                           fontWeight: FontWeight.w500,
                           color: Colors.white,
+                          shadows: [
+                            Shadow(
+                              offset: Offset(1.0, 1.0),
+                              blurRadius: 15.0,
+                              color: Color.fromARGB(255, 0, 0, 0),
+                            ),
+                          ],
                         ),
                       ),
                     ],
@@ -136,6 +150,13 @@ class Body extends StatelessWidget {
                           fontSize: 16,
                           fontWeight: FontWeight.w500,
                           color: Colors.white,
+                          shadows: [
+                            Shadow(
+                              offset: Offset(1.0, 1.0),
+                              blurRadius: 15.0,
+                              color: Color.fromARGB(255, 0, 0, 0),
+                            ),
+                          ],
                         ),
                       ),
                       Icon(
