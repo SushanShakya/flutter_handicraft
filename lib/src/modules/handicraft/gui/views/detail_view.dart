@@ -73,7 +73,7 @@ class DetailView extends StatelessWidget {
                             fontWeight: FontWeight.w600,
                             shadows: [
                               Shadow(
-                                offset: Offset(10.0, 10.0),
+                                offset: Offset(1.0, 1.0),
                                 blurRadius: 3.0,
                                 color: Color.fromARGB(255, 0, 0, 0),
                               ),
