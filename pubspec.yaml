@@ -36,6 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.2
   warped_bloc: ^0.0.10
   add_to_cart_animation: ^1.0.1
+  equatable: ^2.0.5
+  flutter_rating: ^0.0.2
+  flutter_rating_bar: ^4.0.1
 
 dev_dependencies:
   flutter_test:
